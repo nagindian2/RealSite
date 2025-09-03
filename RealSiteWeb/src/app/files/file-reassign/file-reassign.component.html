@@ -1,0 +1,34 @@
+<h2>File Reassign Data (Top 100)</h2>
+
+<table border="1">
+  <thead>
+    <tr>
+        <th>Reassign Detail ID</th>
+        <th>Request ID</th>
+        <th>Reassign From ID</th>
+        <th>Reassign From Name</th>
+        <th>Reassign To ID</th>
+        <th>Reassign To Name</th>
+        <th>Reassign Type</th>
+        <th>Created By</th>
+        <th>Created On</th>
+        <th>Updated By</th>
+        <th>Updated On</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of fileReassignList">
+        <td>{{ item.reassign_detail_id }}</td>
+        <td>{{ item.request_id }}</td>
+        <td>{{ item.reassign_from_id || '-' }}</td>
+        <td>{{ item.reassign_from_name || '-' }}</td>
+        <td>{{ item.reassign_to_id }}</td>
+        <td>{{ item.reassign_to_name || '-' }}</td>
+        <td>{{ item.reassign_type }}</td>
+        <td>{{ item.created_by }}</td>
+        <td>{{ item.created_on | date:'short' }}</td>
+        <td>{{ item.updated_by || '-' }}</td>
+        <td>{{ item.updated_on ? (item.updated_on | date:'short') : '-' }}</td>
+      </tr>
+  </tbody>
+</table>

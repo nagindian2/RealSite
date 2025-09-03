@@ -1,0 +1,12 @@
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\bin\Debug\net8.0\RealSite.DBProvider.deps.json
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\bin\Debug\net8.0\RealSite.DBProvider.dll
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\bin\Debug\net8.0\RealSite.DBProvider.pdb
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.csproj.AssemblyReference.cache
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.GeneratedMSBuildEditorConfig.editorconfig
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.AssemblyInfoInputs.cache
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.AssemblyInfo.cs
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.csproj.CoreCompileInputs.cache
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.dll
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\refint\RealSite.DBProvider.dll
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\RealSite.DBProvider.pdb
+D:\Madan\RealSite\RealSiteAPI\RealSite.DBProvider\obj\Debug\net8.0\ref\RealSite.DBProvider.dll

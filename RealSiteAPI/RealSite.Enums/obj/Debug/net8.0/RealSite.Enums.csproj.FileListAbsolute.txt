@@ -1,0 +1,11 @@
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\bin\Debug\net8.0\RealSite.Enums.deps.json
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\bin\Debug\net8.0\RealSite.Enums.dll
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\bin\Debug\net8.0\RealSite.Enums.pdb
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\RealSite.Enums.GeneratedMSBuildEditorConfig.editorconfig
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\RealSite.Enums.AssemblyInfoInputs.cache
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\RealSite.Enums.AssemblyInfo.cs
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\RealSite.Enums.csproj.CoreCompileInputs.cache
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\RealSite.Enums.dll
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\refint\RealSite.Enums.dll
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\RealSite.Enums.pdb
+D:\Madan\RealSite\RealSiteAPI\RealSite.Enums\obj\Debug\net8.0\ref\RealSite.Enums.dll

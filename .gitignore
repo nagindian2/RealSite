@@ -6,3 +6,6 @@
 /RealSiteAPI/RealSite.Enums/obj/Release/net8.0
 /RealSiteAPI/RealSiteAPI/bin/Debug
 /RealSiteAPI/RealSiteAPI/obj
+/RealSiteAPI/RealSite.DBProvider/obj/Release/net8.0
+/RealSiteAPI/.vs/RealSiteAPI
+*.sqlite

@@ -15,7 +15,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FileReassignComponent } from './files/file-reassign/file-reassign.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EmployeeComponent } from './Employees/employee/employee.component';
-import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -37,7 +36,6 @@ import { NgxPaginationModule } from 'ngx-pagination';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    NgxPaginationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

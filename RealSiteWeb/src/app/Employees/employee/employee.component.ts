@@ -8,15 +8,6 @@ import { FileReassignService } from 'src/app/services/services/realpageapi.servi
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent {
-  p: number;
-  pageItemNumber: number = 10;
-  dataLength: number;
-  currentPage: number = 1;
-  endItemNumber: number;
-  startItemNumber: number = 1;
-  
-  page: number = 1;  // current page
-  pageSize: number = 5;
 
   employeesList : IEmployee[];
   constructor(private fileReassignService: FileReassignService) {}
@@ -26,8 +17,8 @@ export class EmployeeComponent {
    
     this.fileReassignService.getemployees().subscribe({
       next: (data) => {
-        this.employeesList = data;
         console.log('API Data:', data);
+        this.employeesList = data;
       },
       error: (err) => {
         console.error('API Error:', err);

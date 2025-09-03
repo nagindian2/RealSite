@@ -27,7 +27,12 @@ namespace RealSiteAPI.Repository
 
         public IEnumerable<Employee> GetAll()
         {
-            return _appDbContext.employee_list.ToList(); //.employee_list.
+            List < Employee > ee = _appDbContext.employee_list
+                .Select(em => new Employee { id = em.id, employee_name = em.employee_name, employee_phone = em.employee_phone, employee_email = em.employee_email })
+                .ToList(); //.employee_list.
+             //     .Select(e => new { e.Column1, e.Column2, e.Column3 })
+
+            return ee;
         }
 
         public Employee GetEmployee(int id)

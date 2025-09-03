@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/RealSiteAPI/RealSite.Enums/obj/Release/net8.0
+/RealSiteAPI/RealSiteAPI/bin/Debug
+/RealSiteAPI/RealSiteAPI/obj
+/RealSiteAPI/RealSite.DBProvider/obj/Release/net8.0
+/RealSiteAPI/.vs/RealSiteAPI
+*.sqlite
+/RealSiteAPI/RealSite.DBProvider/obj/Debug/net8.0
+/RealSiteAPI/RealSite.Enums/obj/Debug/net8.0

@@ -8,18 +8,14 @@
           <th>Name</th>
           <th>Phone</th>
           <th>Email</th>
-          <th>Password</th>
-          <th>Verification Code</th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let emp of employeesList"} >
+        <tr *ngFor="let emp of employeesList">
           <td>{{ emp.id }}</td>
-          <td>{{ emp.employee_name }}</td>
-          <td>{{ emp.employee_phone }}</td>
-          <td>{{ emp.employee_email }}</td>
-          <td>{{ emp.employee_password }}</td>
-          <td>{{ emp.verification_code }}</td>
+          <td>{{ emp.employee_name || '-' }}</td>
+          <td>{{ emp.employee_phone || '-' }}</td>
+          <td>{{ emp.employee_email || '-' }}</td>
         </tr>
       </tbody>
     </table>

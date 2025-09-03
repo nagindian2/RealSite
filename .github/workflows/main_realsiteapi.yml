@@ -50,7 +50,7 @@ jobs:
       
       - name: Login to Azure
         uses: azure/login@v2
-        with:
+        with: 
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_7D616FBB5C8F40B886F0CA64988800CA }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_31168023C6CA482092B7DDA23B3EBB80 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1A731624366E4F5DBC2D523E95045F72 }}
@@ -62,4 +62,5 @@ jobs:
           app-name: 'RealsiteAPI'
           slot-name: 'Production'
           package: .
+
           

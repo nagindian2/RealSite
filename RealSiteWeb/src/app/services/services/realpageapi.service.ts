@@ -11,7 +11,7 @@ import { IEmployee } from 'src/app/model/Employee';
 
 export class FileReassignService {
  
-  private apiUrl = 'https://localhost:7240/api/RealSite'  // change port if needed
+  private apiUrl = 'https://realsiteapi-f9g5cydrgfdfg4dc.centralindia-01.azurewebsites.net/api/RealSite/'  // change port if needed
    
   constructor(private http: HttpClient) { }
 

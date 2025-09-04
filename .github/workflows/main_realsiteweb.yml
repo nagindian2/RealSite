@@ -24,8 +24,11 @@ jobs:
           node-version: '22.x'
 
       - name: npm install, build, and test
-        run:  npm install ./RealSiteWeb
-          npm run build ./RealSiteWeb
+        run: |
+    cd RealSiteWeb
+    npm install
+    npm run build
+    npm test
           
 
       - name: Upload artifact for deployment job

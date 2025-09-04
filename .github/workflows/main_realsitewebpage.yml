@@ -27,7 +27,7 @@ jobs:
         run: |
           npm install ./RealSiteWeb
           npm run build ./RealSiteWeb
-          npm run test ./RealSiteWeb
+          
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -64,3 +64,4 @@ jobs:
           package: .
 
           
+

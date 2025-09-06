@@ -27,7 +27,8 @@ jobs:
         run: dotnet build ./RealSiteAPI/RealSiteAPI  --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/RealSiteAPI"
+        run: dotnet publish "C:\Projects\RealSiteAPI\RealSiteAPI.csproj" -c Release -o "C:\Program Files\dotnet\RealSiteAPI"
+
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -64,4 +65,5 @@ jobs:
           package: .
 
           
+
 

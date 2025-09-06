@@ -13,5 +13,6 @@ namespace RealSite.DBProvider
         }
         public DbSet<Employee> employee_list {  get; set; }
         public DbSet<FileReassign> file_reassign_details { get; set; }
+        public DbSet<Bank> Bank_list { get; set; }
     }
 }

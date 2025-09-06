@@ -18,6 +18,6 @@ namespace RealSite.DBProvider.Model
         public string? employee_phone { get; set; }
         public string? employee_email { get; set; }
         public string? employee_password { get; set; }
-        public string? verification_code  { get; set; }
+        public string? verification_code { get; set; }
     }
 }

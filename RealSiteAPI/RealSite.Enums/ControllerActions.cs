@@ -4,6 +4,8 @@ namespace RealSite.Enums
 {
     public enum ControllerActions
     {
+        [DescriptionAttribute("GetBankDetails")]
+        GetBankDetails,
         [DescriptionAttribute("GetEmployeeDetails")]
         GetEmployeeDetails,
         [DescriptionAttribute("GetFileReassignDetails")]

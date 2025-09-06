@@ -55,6 +55,10 @@ namespace RealSiteAPI.Controllers
                         IEnumerable<FileReassign> fileReassignDetails = new FileReassignRepo(_appDbContext).GetAll();
                         response = Ok(fileReassignDetails);
                         break;
+                    case ControllerActions.GetBankDetails:
+                        IEnumerable<Bank> banksList = new BankRepo(_appDbContext).GetAll();
+                        response = Ok(banksList);
+                        break;
                     default:
                         IEnumerable<FileReassign> top100fileReassignDetails = new FileReassignRepo(_appDbContext).GetTop100();
                         response = Ok("connected");
